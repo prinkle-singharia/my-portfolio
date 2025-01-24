@@ -1,0 +1,19 @@
+.calendar {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 2px;
+    justify-content: center;
+  }
+  
+  .month {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 0;
+  }
+  
+  .day {
+    width: 15px;
+    height: 15px;
+    margin: 1px;
+    border-radius: 3px;
+  }
