@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
+import dialogflowChatbot from "../../Assets/Projects/dialogflowChatbot.png";
 import customerSegmentation from "../../Assets/Projects/customerSegmentation.png";
 import textClassification from "../../Assets/Projects/textClassification.png";
 import sportsCommentary from "../../Assets/Projects/sportsCommentary.png";
@@ -24,6 +25,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dialogflowChatbot}
+              isBlog={false}
+              title="Chotu: AI-Powered Food Ordering Chatbot using DialogFlow 🍔🤖"
+              description="Meet Chotu, an intelligent NLP chatbot built using Google Dialogflow, seamlessly integrated into a food ordering website. It assists users in placing orders and automatically stores them in a MySQL database for real-time processing. With intent recognition, entity extraction, and webhook-driven automation, Chotu enhances customer experience while optimizing backend efficiency."
+              ghLink="https://github.com/prinkle-singharia/end_to_end_dialogflow_chatbot"
+              demoLink="https://bot.dialogflow.com/a7adb998-7b67-4d9f-ab1e-1f4bcce10c34"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={customerSegmentation}
