@@ -12,8 +12,14 @@ function Github() {
         username="prinkle-singharia"
         blockSize={15}
         blockMargin={5}
-        color="#c084f5"
         fontSize={16}
+        theme={{
+          level0: "#1c1c1c",  // Background color (no contributions)
+          level1: "#c084f5",  // Light Purple (few contributions)
+          level2: "#a855f7",  // Medium Purple
+          level3: "#9333ea",  // Darker Purple
+          level4: "#7e22ce",  // Darkest Purple (most contributions)
+        }}
       />
     </Row>
   );
