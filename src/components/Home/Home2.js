@@ -20,14 +20,14 @@ function Home2() {
             </h1>
             <p className="home-about-body">
             I am passionate about leveraging technology to solve real-world problems and have a strong background in Artificial Intelligence, Software Development, and Cloud Infrastructure.
-
-I specialize in Machine Learning, Natural Language Processing, and Cloud Computing.
-
-My interests lie in creating innovative solutions in AI, Data Science, and Cloud Infrastructure, with extensive hands-on experience in tools and technologies like Python, AWS, Kubernetes, and Terraform.
-
-I thrive on developing scalable applications with React.js, FastAPI and deploying ML models on AWS SageMaker and Google Cloud Platform.
-
-Previously, I worked as a System Engineer at Tata Consultancy Services (TCS) for 3 years, where I built predictive models on AWS SageMaker, developed time-series forecasting models, and optimized cloud-based ETL pipelines for large-scale datasets. I also designed business intelligence dashboards and collaborated with Agile teams to drive data-driven decision-making.
+            <br />
+            I specialize in Machine Learning, Natural Language Processing, and Cloud Computing.
+            <br />
+            My interests lie in creating innovative solutions in AI, Data Science, and Cloud Infrastructure, with extensive hands-on experience in tools and technologies like Python, AWS, Kubernetes, and Terraform.
+            <br />
+            I thrive on developing scalable applications with React.js, FastAPI and deploying ML models on AWS SageMaker and Google Cloud Platform.
+            <br />
+            Previously, I worked as a System Engineer at Tata Consultancy Services (TCS) for 3 years, where I built predictive models on AWS SageMaker, developed time-series forecasting models, and optimized cloud-based ETL pipelines for large-scale datasets. I also designed business intelligence dashboards and collaborated with Agile teams to drive data-driven decision-making.
               <br />
               <br />
               I specialize in{" "}
