@@ -11,12 +11,6 @@
     <a href="https://github.com/prinkle-singharia/Portfolio/issues">Request Feature</a>
 </h3>
 
-## TL;DR
-
-Credits to: [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). Thanks!
-
-## Built With
-
 This project was built using these technologies.
 
 - React.js
