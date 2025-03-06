@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
+import coldEmailGenerator from "../../Assets/Projects/coldEmailGenerator.png";
 import dialogflowChatbot from "../../Assets/Projects/dialogflowChatbot.png";
 import customerSegmentation from "../../Assets/Projects/customerSegmentation.png";
 import textClassification from "../../Assets/Projects/textClassification.png";
@@ -25,6 +26,16 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={coldEmailGenerator}
+              isBlog={false}
+              title="AI Powered Cold Email Generator using LangChain 📧🤖"
+              description="I built GenAI Cold Email Generator, an AI-powered tool that automates cold email writing and personalization using LLMs and prompt engineering. This project streamlines outreach by crafting engaging, customized emails tailored to recipients, boosting response rates for businesses and professionals."
+              ghLink="https://github.com/prinkle-singharia/genAi-cold-email-generator"
+            />
+          </Col>
+        
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={dialogflowChatbot}
